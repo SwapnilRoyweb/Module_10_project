@@ -60,6 +60,7 @@ hr{
 }
 .blog{
     display: flex;
+    align-items: center;
     gap: 10px;
     width: 400px;
 }
@@ -127,7 +128,6 @@ hr{
     }
     .player, .blog{
         flex-direction: column;
-        align-items: center;
     }
 }
 @media screen and (min-width:689px) and (max-width:992px){
